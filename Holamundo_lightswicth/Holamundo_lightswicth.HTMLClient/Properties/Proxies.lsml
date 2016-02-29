@@ -13,12 +13,6 @@
   <EntityType>
     <EntityType.Attributes>
       <Proxy
-        Target="ServiceInterface:empleadoItem" />
-    </EntityType.Attributes>
-  </EntityType>
-  <EntityType>
-    <EntityType.Attributes>
-      <Proxy
         Target="ServiceInterface:empleados_selecionadosItem" />
     </EntityType.Attributes>
   </EntityType>

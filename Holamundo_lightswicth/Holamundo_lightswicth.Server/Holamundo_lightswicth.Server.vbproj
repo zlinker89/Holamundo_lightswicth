@@ -219,10 +219,22 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <LightSwitchModel Include="DataSources\Drummond02Data\competencias.lsml" />
+    <LightSwitchModel Include="DataSources\Drummond02Data\empleado.lsml" />
+    <LightSwitchModel Include="DataSources\Drummond02Data\empleados_selecionados.lsml" />
+    <LightSwitchModel Include="DataSources\Drummond02Data\evaluacion.lsml" />
+    <LightSwitchModel Include="DataSources\Drummond02Data\periodos.lsml" />
+    <LightSwitchModel Include="DataSources\Drummond02Data\preguntas.lsml" />
+    <LightSwitchModel Include="DataSources\Drummond02Data\preguntas_competencia.lsml" />
+    <LightSwitchModel Include="DataSources\Drummond02Data\R_Evaluacion.lsml" />
+    <LightSwitchModel Include="DataSources\Drummond02Data\tipo_usuario.lsml" />
+    <LightSwitchModel Include="DataSources\Drummond02Data\Usuario_Tipo_usuario.lsml" />
+    <LightSwitchModel Include="DataSources\Drummond02Data\usuarios.lsml" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <LightSwitchModel Include="My Project\DataSources\Drummond02Data.lsml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
@@ -253,9 +265,7 @@
   <ItemGroup>
     <AppDesigner Include="My Project\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DataSources\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

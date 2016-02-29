@@ -69,6 +69,9 @@
     <Content Include="Content\Images\user-splash-screen.png" />
     <Content Include="Content\Web.config" />
     <Content Include="packages.config" />
+    <Content Include="Screens\CompetenciasSet\ViewCompetencias.lsml.js">
+      <DependentUpon>ViewCompetencias.lsml</DependentUpon>
+    </Content>
     <Content Include="Screens\EmpleadoSet\ViewEmpleado.lsml.js">
       <DependentUpon>ViewEmpleado.lsml</DependentUpon>
     </Content>
@@ -96,8 +99,12 @@
     <LightSwitchModel Include="Properties\Client.lsml">
       <ProjectCritical>true</ProjectCritical>
     </LightSwitchModel>
+    <LightSwitchModel Include="Properties\Drummond02Data\competencias.lsml" />
     <LightSwitchModel Include="Properties\Drummond02Data\empleado.lsml" />
     <LightSwitchModel Include="Properties\Proxies.lsml" />
+    <LightSwitchModel Include="Screens\CompetenciasSet\AddEditCompetencias.lsml" />
+    <LightSwitchModel Include="Screens\CompetenciasSet\BrowseCompetenciasSet.lsml" />
+    <LightSwitchModel Include="Screens\CompetenciasSet\ViewCompetencias.lsml" />
     <LightSwitchModel Include="Screens\EmpleadoSet\AddEditEmpleado.lsml" />
     <LightSwitchModel Include="Screens\EmpleadoSet\BrowseEmpleadoSet.lsml" />
     <LightSwitchModel Include="Screens\EmpleadoSet\ViewEmpleado.lsml" />
